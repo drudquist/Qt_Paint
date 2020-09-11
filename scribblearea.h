@@ -43,6 +43,8 @@ private:
     bool modified;
     bool scribbling; // user is currently drawing
 
+    int myPenWidth;
+
     QColor myPenColor;
     QImage image;
     QPoint lastPoint;
